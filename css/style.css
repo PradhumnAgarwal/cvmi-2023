@@ -57,14 +57,14 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/hero-bg.png);
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-.hero_area::after {
+/* .hero_area::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -72,8 +72,9 @@ body {
   width: 45%;
   height: 100%;
   background-image: url(../images/hero-side-bg.png);
+  opacity: 0.5;
   background-size: cover;
-}
+} */
 
 .sub_page .hero_area {
   height: auto;
@@ -124,14 +125,19 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
-  color: #060606;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f5f4f4;
   text-align: center;
   text-transform: uppercase;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #24d278;
+  color: #0c0c0c;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 a,
@@ -166,7 +172,7 @@ a:focus {
 .custom_nav-container form {
   padding-top: 7px;
 }
-
+/* 
 .navbar-brand {
   margin-right: 5%;
   display: -webkit-box;
@@ -178,7 +184,13 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 70px;
+  width: 200px;
+} */
+
+.navbrand h1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .custom_nav-container {
@@ -279,16 +291,21 @@ a:focus {
 
 .slider_section .detail-box h1 {
   color: #24d278;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .slider_section .detail-box h1 span {
-  font-size: 5rem;
-  color: #252525;
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .slider_section .detail-box p {
-  margin-top: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-left: 5px;
 }
 
 .slider_section .detail-box .btn-box {
@@ -353,6 +370,7 @@ a:focus {
 
 .slider_section .img-container .img-box img {
   width: 100%;
+  /* background-color: #fdfeff; */
 }
 
 .slider_section .play_btn {
