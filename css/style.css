@@ -545,7 +545,7 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -646,7 +646,7 @@ a:focus {
   font-size: 3rem;
   padding: 0;
   color: #24d278;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .discount_section .detail-box a {
@@ -667,8 +667,13 @@ a:focus {
   color: #252525;
 }
 
+.discount_section .img-box {
+  display: flex;
+}
+
 .discount_section .img-box img {
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .brand_section .brand_container {
@@ -1015,6 +1020,7 @@ a:focus {
 }
 
 /* footer section*/
+
 .footer_section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1026,15 +1032,16 @@ a:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #fdfeff;
+  background-color: #3e3f40;
 }
 
 .footer_section p {
   color: #171717;
   margin: 0;
-  padding: 25px 0 20px 0;
+  padding: 1px 0;
   margin: 0 auto;
   text-align: center;
+  font-size: small;
 }
 
 .footer_section a {
@@ -1042,6 +1049,7 @@ a:focus {
 }
 
 /* end footer section*/
+
 #navbarSupportedContent {
   -webkit-transform: translateX(100vw);
   transform: translateX(100vw);
