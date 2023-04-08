@@ -531,10 +531,6 @@ a:focus {
         color: $black;
       }
 
-      &:hover {
-        cursor: pointer;
-      }
-
       &[aria-expanded="true"] {
         .t-name {
           color: $primary1;
@@ -983,7 +979,7 @@ a:focus {
 }
 
 .menu_btn-style button .s-2 {
-  transform: translateX(100px);
+  transform: translateX(10000px);
 }
 
 .menu_btn-style button .s-3 {
