@@ -933,6 +933,21 @@ a:focus {
   font-size: 24px;
 }
 
+.info_info li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.info_info li a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0px 4px;
+}
+
+.info_info li a:hover{
+  text-decoration: underline;
+}
+
 .info_section .info_insta .insta_container > div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1037,9 +1052,9 @@ a:focus {
 }
 
 .footer_section p {
-  color: #171717;
+  color: #fff9f9;
   margin: 0;
-  padding: 1px 0;
+  padding: 3px 0;
   margin: 0 auto;
   text-align: center;
   font-size: small;
