@@ -635,10 +635,6 @@ a:focus {
   align-items: center;
 }
 
-.discount_section .detail-box h2 {
-  padding-left: 45px;
-}
-
 .discount_section .detail-box h2.main_heading {
   font-size: 3rem;
   padding: 0;
@@ -689,12 +685,19 @@ a:focus {
   position: relative;
   text-align: center;
   background-color: #e4e5e9;
-  padding: 75px 35px 10px 35px;
+  padding: 50px 35px 10px 35px;
   margin: 30px 10px 0 10px;
   min-width: 225px;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 23.2467%;
   flex: 0 0 23.2467%;
+}
+
+.brand_section .brand_container .box a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .brand_section .brand_container .box h6 {
@@ -716,6 +719,16 @@ a:focus {
 
 .brand_section .brand_container .box .new h6 {
   margin: 0;
+}
+
+.brand_section .brand_container .box .img-box {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+
+.brand_section .brand_container .box .detail-box {
+  flex: 1;
 }
 
 .brand_section .brand_container .box .img-box img {
@@ -746,6 +759,90 @@ a:focus {
   background-color: transparent;
   border-color: #252525;
   color: #252525;
+}
+
+.timeline_section .heading_container {
+  margin-bottom: 3rem;
+}
+
+.timeline-1 {
+  border-left: 3px solid #24d278;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #d7fff8;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  max-width: 50%;
+}
+
+@media (max-width: 767px) {
+  .timeline-1 {
+    max-width: 98%;
+    padding: 25px;
+  }
+}
+
+.timeline-1 .event {
+  border-bottom: 1px dashed #000;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .timeline-1 .event {
+    padding-top: 30px;
+  }
+}
+
+.timeline-1 .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline-1 .event:before,
+.timeline-1 .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-1 .event:before {
+  left: -207px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 1.1em;
+  min-width: 120px;
+}
+
+@media (max-width: 767px) {
+  .timeline-1 .event:before {
+    left: 0px;
+    text-align: left;
+  }
+}
+
+.timeline-1 .event:after {
+  -webkit-box-shadow: 0 0 0 3px #36d8c9;
+  box-shadow: 0 0 0 3px #36d8c9;
+  left: -55.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
+}
+
+@media (max-width: 767px) {
+  .timeline-1 .event:after {
+    left: -31.8px;
+  }
 }
 
 .contact_section {
