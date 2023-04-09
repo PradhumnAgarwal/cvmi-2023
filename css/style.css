@@ -555,7 +555,7 @@ a:focus {
 }
 
 .trending_section .tab_container .t-link-box {
-  margin: 60px 0;
+  margin: 30px 0;
   color: #24d278;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -583,7 +583,6 @@ a:focus {
 .trending_section .tab_container .t-link-box .t-name {
   color: #252525;
 }
-
 
 .trending_section .tab_container .t-link-box[aria-expanded="true"] .t-name {
   color: #24d278;
@@ -842,8 +841,6 @@ a:focus {
   justify-content: center;
 }
 
-
-
 .info_section {
   background-color: #0f1521;
   color: #ffffff;
@@ -867,18 +864,18 @@ a:focus {
   font-size: 24px;
 }
 
-.info_info li{
+.info_info li {
   list-style: none;
   margin-top: 10px;
 }
 
-.info_info li a{
+.info_info li a {
   text-decoration: none;
   color: #ffffff;
   margin: 0px 4px;
 }
 
-.info_info li a:hover{
+.info_info li a:hover {
   text-decoration: underline;
 }
 
