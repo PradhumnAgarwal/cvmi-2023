@@ -56,10 +56,11 @@
 @media (max-width: 768px) {
   .hero_area {
     height: auto;
+    background-image: url(../images/hero-bg.png);
   }
 
   .hero_area::after {
-    background-image: none;
+    background-image: url(../images/hero-bg.png);
     background-color: #1fd778;
     width: 100%;
     height: 450px;
@@ -82,10 +83,6 @@
     bottom: 450px;
     right: 50%;
     transform: translate(50%, 50%);
-  }
-
-  .hero_area {
-    background: none;
   }
 
   .slider_section {

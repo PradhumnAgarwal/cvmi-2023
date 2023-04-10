@@ -42,7 +42,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.heading_container h2::before {
+/* .heading_container h2::before {
   content: "";
   width: 60px;
   height: 3px;
@@ -52,7 +52,7 @@ body {
   background-color: #24d278;
   -webkit-transform: translate(100%, -50%);
   transform: translate(100%, -50%);
-}
+} */
 
 /*header section*/
 .hero_area {
