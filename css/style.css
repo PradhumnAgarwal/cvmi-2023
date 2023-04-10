@@ -133,9 +133,14 @@ body {
   text-transform: uppercase;
 }
 
-.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
   color: #0c0c0c;
+  /* text-decoration: underline; */
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link {
+  color: #52ffc5;
   /* text-decoration: underline; */
   font-size: 1.2rem;
   font-weight: bold;
