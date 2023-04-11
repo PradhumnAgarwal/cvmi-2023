@@ -188,6 +188,8 @@ body {
   font-weight: bold;
 }
 
+
+
 a,
 a:hover,
 a:focus {
@@ -220,7 +222,6 @@ a:focus {
 .custom_nav-container form {
   padding-top: 7px;
 }
-/* 
 .navbar-brand {
   margin-right: 5%;
   display: -webkit-box;
@@ -232,8 +233,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 200px;
-} */
+  width: 170px;
+}
 
 .navbrand h1 {
   color: #ffffff;
