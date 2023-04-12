@@ -49,7 +49,7 @@ html {
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: contents;
+  display: block;
 }
 
 body {

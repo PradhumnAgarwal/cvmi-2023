@@ -76,7 +76,9 @@ body {
   opacity: 0.5;
   background-size: cover;
 } */
-
+.header_section {
+  display: contents;
+}
 .sub_page .hero_area {
   height: auto;
   background-size: auto;
