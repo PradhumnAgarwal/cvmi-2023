@@ -211,8 +211,6 @@ body {
   z-index: 1;
   padding-top: 15px;
   padding-bottom: 15px;
- 
-
 }
 
 .nav-dropdown .dropdown-content a {
@@ -754,6 +752,7 @@ a:focus {
 
 .discount_section .img-box img {
   width: 60%;
+  height: 60%;
   margin: 0 auto;
 }
 
