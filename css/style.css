@@ -7,10 +7,18 @@ body {
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
+  background: #e2f4f4;
 }
 
+p {
+  text-align: justify;
+}
+.info-p{
+  text-align: left;
+}
 .layout_padding2 {
   padding: 45px 0;
+  background: #e2f4f4;
 }
 
 .layout_padding2-top {
@@ -84,7 +92,7 @@ body {
   display: contents;
 }
 
-.sub_page .hero_area .header_section .container-fluid{
+.sub_page .hero_area .header_section .container-fluid {
   background-color: #7292d1;
 }
 
@@ -145,6 +153,7 @@ body {
 
 .header_section .nav_container {
   margin: 0 auto;
+  background: #92d1;
 }
 
 .header_section .user_option {
@@ -706,10 +715,10 @@ a:focus {
   padding-top: 35px;
 }
 
-.tocs .tab_container .t-link-box{
+.tocs .tab_container .t-link-box {
   margin: 10px 0;
 }
-.tocs .tab_container .t-link-box h5{
+.tocs .tab_container .t-link-box h5 {
   font-size: 1rem;
 }
 
@@ -777,8 +786,6 @@ a:focus {
   flex-wrap: wrap;
   margin: 0 -10px;
 }
-
-
 
 .brand_section .brand_container .box {
   position: relative;
