@@ -126,7 +126,9 @@
     text-align: center;
   }
 
-
+.toch{
+  display: none;
+}
 
   .discount_section .detail-box h2 {
     padding: 0;
