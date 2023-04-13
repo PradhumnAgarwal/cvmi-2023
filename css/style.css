@@ -706,6 +706,13 @@ a:focus {
   padding-top: 35px;
 }
 
+.tocs .tab_container .t-link-box{
+  margin: 10px 0;
+}
+.tocs .tab_container .t-link-box h5{
+  font-size: 1rem;
+}
+
 .discount_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -755,7 +762,7 @@ a:focus {
 }
 
 .discount_section .img-box img {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -770,6 +777,8 @@ a:focus {
   flex-wrap: wrap;
   margin: 0 -10px;
 }
+
+
 
 .brand_section .brand_container .box {
   position: relative;
