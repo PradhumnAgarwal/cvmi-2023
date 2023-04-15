@@ -50,6 +50,14 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
+.heading_container h4 {
+  color: #252525;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
 /* .heading_container h2::before {
   content: "";
   width: 60px;
