@@ -51,6 +51,10 @@
   .brand_section {
     text-align: center;
   }
+
+  .about_section .card-body {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -120,6 +124,12 @@
 
   .about_section .cards {
     flex-direction: column;
+    margin-top: 0;
+  }
+
+  .about_section .card-body {
+    margin-bottom: row;
+    flex-direction: row;
   }
 
   .discount_section .detail-box {

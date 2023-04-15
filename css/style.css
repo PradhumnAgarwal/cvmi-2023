@@ -61,8 +61,6 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-
-
 /* .heading_container h2::before {
   content: "";
   width: 60px;
@@ -670,7 +668,8 @@ a:focus {
 
 .about_section .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .about_section .cards .card {
@@ -709,6 +708,7 @@ a:focus {
   font-weight: 600;
   color: #252525;
   margin-top: 10px;
+  text-align: left;
 }
 
 .about_section .cards .card .card-body .card-text {
