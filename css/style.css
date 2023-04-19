@@ -1,4 +1,4 @@
-*{
+* {
   scroll-behavior: smooth;
 }
 body {
@@ -238,6 +238,7 @@ p {
   z-index: 1;
   padding-top: 15px;
   padding-bottom: 15px;
+  
 }
 
 .nav-dropdown .dropdown-content a {
@@ -249,6 +250,10 @@ p {
   /* padding-bottom: 20px; */
   text-align: center;
   text-transform: uppercase;
+}
+
+.nav-dropdown .dropdown-content a:hover{
+  color: #52ffc5;
 }
 
 .nav-dropdown:hover .dropdown-content {
@@ -791,6 +796,12 @@ a:focus {
 }
 .tocs .tab_container .t-link-box h5 {
   font-size: 1rem;
+}
+.toccft .tab_container .t-link-box h5 {
+  font-size: 1rem;
+}
+.cft {
+  background-color: #e2f4f4;
 }
 
 .discount_section .row {
