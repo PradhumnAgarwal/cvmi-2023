@@ -729,6 +729,36 @@ a:focus {
   justify-content: center;
 }
 
+.registration_section .detail-box {
+  margin-top: 2rem;
+}
+
+.registration_section tbody .h1-row {
+  background-color: #7292d1;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+.registration_section tbody .h2-row {
+  background-color: rgb(156 194 216);
+  font-weight: bold;
+}
+.registration_section tbody .h3-row {
+  color: rgb(30, 66, 36);
+  background-color: rgb(123, 207, 179);
+  text-align: center;
+  font-weight: bold;
+}
+.registration_section tbody .h4-row {
+  color: rgb(30, 66, 36);
+  background-color: rgb(148 228 204);
+  font-weight: bold;
+  text-align: center;
+}
+.registration_section tbody .tdata {
+  background-color: #c3d6d0;
+}
+
 .trending_section {
   background-color: #f4f5f7;
 }
