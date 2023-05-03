@@ -238,7 +238,6 @@ p {
   z-index: 1;
   padding-top: 15px;
   padding-bottom: 15px;
-  
 }
 
 .nav-dropdown .dropdown-content a {
@@ -252,7 +251,7 @@ p {
   text-transform: uppercase;
 }
 
-.nav-dropdown .dropdown-content a:hover{
+.nav-dropdown .dropdown-content a:hover {
   color: #52ffc5;
 }
 
@@ -723,6 +722,11 @@ a:focus {
   font-size: 13px;
   color: #252525;
   margin-top: 0px;
+}
+
+.registration_section .heading_container {
+  display: flex;
+  justify-content: center;
 }
 
 .trending_section {
