@@ -79,7 +79,8 @@ p {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.png);
+  /* background-image: url(../images/hero-bg.png); */
+  background-image: url(../images/hero-bg-2.jpg);
   /* background-image: url(https://www.iiitm.ac.in/gallery/Campus%20Photograph/images/2.jpg); */
   background-size: cover;
   position: relative;
