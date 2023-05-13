@@ -682,7 +682,7 @@ a:focus {
 
 .about_section .cards .card {
   /* width: 33.33%; */
-  margin: 0 15px;
+  margin: 0 10px;
   /* background-color: white; */
   background-color: transparent;
   border: none;
@@ -701,14 +701,18 @@ a:focus {
   width: 80px;
   height: 80px;
   object-fit: cover;
-  border-width: 5px;
+  border-width: 3px;
   border-style: solid;
-  border-color: #24d278;
+  border-color: #88b5bd;
 }
 
 .about_section .cards .card .card-body .details {
   padding: 0 15px;
   max-width: 150px;
+}
+
+.committee h2 {
+  text-transform: uppercase;
 }
 
 .about_section .cards .card .card-body h5 {
