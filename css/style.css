@@ -694,7 +694,7 @@ a:focus {
   background-color: white;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about_section .cards .card .card-body img {
@@ -1165,6 +1165,42 @@ a:focus {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.session {
+  background-color: white;
+  margin-top: 45px;
+  padding: 30px 25px 20px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.session .keypoints {
+  margin-bottom: 25px;
+  color: rgb(5 50 138);
+}
+
+.session .authors {
+  display: flex;
+  gap: 10px;
+}
+
+.session .authors .author {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .session .authors {
+    display: inline-block;
+  }
+}
+.session .authors .author .name {
+  font-weight: 600;
+}
+.session .authors .author p {
+  margin-bottom: 5px;
+}
+.session .authors .author .contact {
+  margin-top: 12px;
 }
 
 .info_section {
