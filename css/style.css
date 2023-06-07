@@ -1020,6 +1020,10 @@ a:focus {
   position: relative;
 }
 
+.event-past{
+  text-decoration: line-through;
+}
+
 @media (max-width: 767px) {
   .timeline-1 .event {
     padding-top: 30px;
