@@ -1032,6 +1032,20 @@ a:focus {
   text-decoration: line-through;
 }
 
+/* .pos-abs{
+  position: absolute;
+} */
+
+.date-span{
+  margin-left: -145px;
+  position: absolute;
+  top: 30px;
+  
+
+  
+}
+
+
 @media (max-width: 767px) {
   .timeline-1 .event {
     padding-top: 30px;
