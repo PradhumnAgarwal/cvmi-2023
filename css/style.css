@@ -668,6 +668,10 @@ a:focus {
   margin: 0 auto;
 }
 
+.about_section .img-box-home img {
+  width: 100%;
+}
+
 .committee {
   /* background-color: #ffffff; */
   justify-content: center;
@@ -1036,15 +1040,11 @@ a:focus {
   position: absolute;
 } */
 
-.date-span{
+.date-span {
   margin-left: -145px;
   position: absolute;
   top: 30px;
-  
-
-  
 }
-
 
 @media (max-width: 767px) {
   .timeline-1 .event {
