@@ -839,8 +839,16 @@ a:focus {
 .toccft .tab_container .t-link-box h5 {
   font-size: 1rem;
 }
+
+.link-fix {
+  margin-top: 0px !important;
+}
 .cft {
   background-color: #e2f4f4;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .discount_section .row {
@@ -1019,6 +1027,24 @@ a:focus {
   margin-bottom: 0px;
   position: relative;
 }
+
+.event-past {
+  text-decoration: line-through;
+}
+
+/* .pos-abs{
+  position: absolute;
+} */
+
+.date-span{
+  margin-left: -145px;
+  position: absolute;
+  top: 30px;
+  
+
+  
+}
+
 
 @media (max-width: 767px) {
   .timeline-1 .event {
