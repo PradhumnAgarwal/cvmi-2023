@@ -668,6 +668,10 @@ a:focus {
   margin: 0 auto;
 }
 
+.about_section .img-box-home img {
+  width: 100%;
+}
+
 .committee {
   /* background-color: #ffffff; */
   justify-content: center;
